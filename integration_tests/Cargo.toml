@@ -3,6 +3,14 @@ name = "integration_tests"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+
+[dev-dependencies]
+borsh = { workspace = true }
+litesvm = "0.1.0"
+solana-program = { workspace = true }
+solana-sdk = { workspace = true }
+spl-token = { workspace = true }
+spl-token-2022 = { workspace = true }
+vault-program = { workspace = true }
+vault-sdk = { workspace = true }
